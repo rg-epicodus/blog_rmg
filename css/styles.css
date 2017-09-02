@@ -1,45 +1,16 @@
-.header {
-    grid-area: hd;
-    background-color: #020304;
-}
-.footer {
-    grid-area: ft;
-    background-color: #626266;
-}
-.content {
-    grid-area: main;
-    background-color: #938172
-}
-.sidebar {
-    grid-area: sd;
-    background-color: #541F14;
-}
-* {box-sizing: border-box;}
-
-.wrapper {
-    /*border: 2px solid #f76707;*/
-    border-radius: 5px;
-    background-color: #fff4e6;
-    width: 100vw;
-    height: 100vh;
-    margin: 0 auto;
-    color: #fff;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.wrapper > div {
-    border: 2px solid #f9f9f9;
-    border-radius: 5px;
-    /*background-color: #ffd8a8;*/
-    padding: 1em;
-    /*color: #d9480f;*/
-}
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "hd hd hd hd"
-      "sd main main main"
-      "ft ft ft ft";
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: georgia;
+  }
 
+body {
+  /*color: red;*/
 }
